@@ -171,7 +171,7 @@ function main() { //6000 7500 9000 11000 13000
 
   setTimeout(() => {
     sideCogOn();
-    articleOn(articleEls[1]);
+    articleOn(articleEls[0]);
   }, 0);
   
   setTimeout(() => {

@@ -791,6 +791,11 @@ footer {
   line-height: 1.8;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 480px) {
+  
+}
+
 /* ANIMATION */
 @keyframes opening-down-header {
   0% {
