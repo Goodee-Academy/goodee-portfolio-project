@@ -6,8 +6,6 @@ const boxEls = document.querySelectorAll(".box-style");
 const projectItemEls = document.querySelectorAll(".project-item")
 
 function sideCogOn() {
-  console.log(sideCogs);
-  
   sideCogs[0].classList.add("side-spin-right");
   sideCogs[1].classList.add("side-spin-left");
   sideCogs[2].classList.add("side-spin-right");
@@ -21,7 +19,7 @@ function sideCogOn() {
     sideCogs[2].classList.remove("side-spin-right");
     sideCogs[3].classList.remove("side-spin-right");
     sideCogs[4].classList.remove("side-spin-left");
-  }, 3000);
+  }, 2000);
 }
 
 function sideCogOff() {
@@ -38,7 +36,7 @@ function sideCogOff() {
     sideCogs[2].classList.remove("side-spin-left");
     sideCogs[3].classList.remove("side-spin-left");
     sideCogs[4].classList.remove("side-spin-right");
-  }, 3000);
+  }, 2000);
 }
 
 function articleOn(nextArticle) {
@@ -47,7 +45,7 @@ function articleOn(nextArticle) {
 
   setTimeout(() => {
     nextArticle.classList.remove("article-on");
-  }, 3000);
+  }, 2000);
 }
 
 function articleOff(postArticle) {
@@ -56,7 +54,7 @@ function articleOff(postArticle) {
       
   setTimeout(() => {
     postArticle.classList.remove("article-off");
-  }, 3000);
+  }, 2000);
 }
 
 function thisArticle(articleEls) {
@@ -132,12 +130,12 @@ function changeWindow(postArticle, nextArticle) {
   setTimeout(() => {
     sideCogOn();
     articleOn(nextArticle);
-  }, 3000);
+  }, 2000);
 
   setTimeout(() => {
     boxOn();
     coverOff();
-  }, 6000);
+  }, 4000);
 }
 
 function openingClose() {
@@ -156,30 +154,30 @@ articleBtns.forEach((articleBtn, index) => {
 
 document.getElementById("copyright").textContent = new Date().getFullYear();
 
-function main() {
+function main() { //6000 7500 9000 11000 13000
   coverOn();
 
   setTimeout(() => {
     openingClose();
-  }, 6000);
+  }, 0);
 
   setTimeout(() => {
     headerOpening();
-  }, 7500);
+  }, 0);
   
   setTimeout(() => {
     sideOpening();
-  }, 9000);
+  }, 0);
 
   setTimeout(() => {
     sideCogOn();
-    articleOn(articleEls[0]);
-  }, 11000);
+    articleOn(articleEls[1]);
+  }, 0);
   
   setTimeout(() => {
     boxOn();
     coverOff();
-  }, 13500);
+  }, 0);
 }
 
 main();
