@@ -776,7 +776,7 @@ section > .article-box > .article-style > .box-style.box-show {
 
   opacity: 0;
   transform: translate(105px, 200px);
-  transition-delay: 8s;
+  transition-delay: 6s;
 }
 
 #box-contact > #contact-container > .contact-item > p {
