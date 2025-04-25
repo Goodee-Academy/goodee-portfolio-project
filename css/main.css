@@ -775,6 +775,17 @@ section > .article-box > .article-style > .box-style.box-show {
   height: 50px;
 
   opacity: 0;
+}
+
+#box-contact > #contact-container > .contact-item:nth-child(1) > img {
+  transition-delay: 4s;
+}
+
+#box-contact > #contact-container > .contact-item:nth-child(2) > img {
+  transition-delay: 4.5s;
+}
+
+#box-contact > #contact-container > .contact-item:nth-child(3) > img {
   transition-delay: 5s;
 }
 
@@ -936,6 +947,15 @@ footer {
     flex-direction: column;
     margin: 20px;
     row-gap: 20px;
+  }
+
+  #box-career > #career-container > .career-item > h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  #box-career > #career-container > .career-item > h3 {
+    font-size: 20px;
   }
 
   #box-career > #career-container > .career-item > p {
