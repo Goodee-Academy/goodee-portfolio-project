@@ -144,12 +144,14 @@ header > div > #mobile-nav {
 header > div > #mobile-nav > #mobile-icon {
   color: #fff;
   font-size: 40px;
+  cursor: pointer;
 }
 
 header > div > #mobile-nav > #mobile-menu {
   color: #fff;
   font-size: 40px;
   opacity: 0;
+  cursor: pointer;
 }
 
 header > div > #mobile-nav.mobile-active > #mobile-icon {
@@ -696,7 +698,7 @@ section > .article-box > .article-style > .box-style.box-show {
 }
 
 #box-career > #career-container > .career-item {
-  width: 80%;
+  width: 90%;
   max-width: 800px;
   height: 400px;
   margin: 20px;
@@ -909,13 +911,31 @@ footer {
     display: block;
   }
 
+  section > .article-box {
+    height: 80%;
+  }
+
+  #box-main > div > img {
+    opacity: 0;
+  }
+
   #box-about > div:nth-child(1) {
     width: 200px;
     height: 200px;
   }
 
+  #box-about > div:nth-child(2) > h3 {
+    text-align: center;
+  }
+
   #box-skill h3 {
     text-align: center;
+  }
+
+  #box-skill > div > div {
+    flex-direction: column;
+    margin: 20px;
+    row-gap: 20px;
   }
 
   #box-career > #career-container > .career-item > p {
