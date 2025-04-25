@@ -465,8 +465,7 @@ section > .article-box > .article-style > .box-style.box-show {
   flex-shrink: 0;
   display: flex;
 
-  transform: translateY(100px);
-  transition-delay: 4s;
+  transition-delay: 3s;
 }
 
 #box-about > div:nth-child(1) > img {
@@ -513,7 +512,6 @@ section > .article-box > .article-style > .box-style.box-show {
   animation: profile 4s 3s;
 
   opacity: 1;
-  transform: translateY(0);
 }
 
 #article-about.article-present > #box-about > div:nth-child(1) > img {
@@ -775,8 +773,7 @@ section > .article-box > .article-style > .box-style.box-show {
   height: 50px;
 
   opacity: 0;
-  transform: translate(105px, 200px);
-  transition-delay: 6s;
+  transition-delay: 5s;
 }
 
 #box-contact > #contact-container > .contact-item > p {
@@ -793,21 +790,18 @@ section > .article-box > .article-style > .box-style.box-show {
   animation: icon-move 4s 4s;
   
   opacity: 1;
-  transform: translate(0, 0);
 }
 
 #article-contact.article-present > #box-contact > #contact-container > .contact-item:nth-child(2) > img {
   animation: icon-move 4s 4.5s;
   
   opacity: 1;
-  transform: translate(0, 0);
 }
 
 #article-contact.article-present > #box-contact > #contact-container > .contact-item:nth-child(3) > img {
   animation: icon-move 4s 5s;
   
   opacity: 1;
-  transform: translate(0, 0);
 }
 
 #article-contact.article-present > #box-contact > #contact-container > .contact-item > p {
