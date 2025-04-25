@@ -123,6 +123,7 @@ function sideOpening() {
 
 function changeWindow(postArticle, nextArticle) {
   coverOn();
+  mobileMenuOff();
   boxOff();
   sideCogOff();
   articleOff(postArticle);
@@ -141,6 +142,22 @@ function changeWindow(postArticle, nextArticle) {
 function openingClose() {
   document.getElementById("opening-box").classList.add("opening-closed");
 }
+
+function mobileMenuOn() {
+  document.querySelector("#mobile-nav").classList.add("mobile-active");
+  document.querySelector("nav").classList.add("mobile-active");
+  document.querySelector("#mobile-cover").classList.add("mobile-active");
+}
+
+function mobileMenuOff() {
+  document.querySelector("#mobile-nav").classList.remove("mobile-active");
+  document.querySelector("nav").classList.remove("mobile-active");
+  document.querySelector("#mobile-cover").classList.remove("mobile-active");
+}
+
+document.querySelector("#mobile-icon").addEventListener("click", mobileMenuOn);
+document.querySelector("#mobile-cover").addEventListener("click", mobileMenuOff);
+document.querySelector("#mobile-menu").addEventListener("click", mobileMenuOff);
 
 articleBtns.forEach((articleBtn, index) => {
   articleBtn.addEventListener("click", () => {
