@@ -466,7 +466,7 @@ section > .article-box > .article-style > .box-style.box-show {
   display: flex;
 
   transform: translateY(100px);
-  transition-delay: 7s;
+  transition-delay: 4s;
 }
 
 #box-about > div:nth-child(1) > img {
