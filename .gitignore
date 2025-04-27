@@ -1,1 +1,9 @@
+##### IntelliJ #####
+.idea
+*.iml
+out
+
+
+##### Visual Studio Code #####
 .vscode
+
