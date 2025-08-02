@@ -1,8 +1,8 @@
 ## Toy Project: Developer Portfolio Site
 
 ### Tech Stack
-Language: HTML5, CSS3, JavaScript
-VCS: Git, GitHub
+- Language: HTML5, CSS3, JavaScript<br>
+- VCS: Git, GitHub
 
 ### Project Period
 2025.04.21 - 2025.04.25
